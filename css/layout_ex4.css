@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+ul, li{
+    list-style: none;
+}
+/* 전체 */
+#wrap{
+    width: 1200px;
+    height: 700px;
+    background-color: lightblue;
+}
+/* 헤더 */
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: lightcoral;
+}
+.left-header{
+    width: 200px;
+    height: 100%;
+    background-color: lightcyan;
+}
+.center-header{
+    width: 800px;
+    height: 100%;
+    background-color: lightgray;
+}
+.right-header{
+    width: 200px;
+    height: 100%;
+    background-color: lightgoldenrodyellow;
+}
+/* 메인 */
+main{
+    width: 100%;
+    height: 500px;
+    background-color: lightpink;
+}
+.main-content{
+    width: 100%;
+    height: 200px;
+    background-color: lightskyblue;
+}
+.main-bottom{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: lightyellow;
+}
+.main-bottom p{
+    width: 400px;
+    height: 100%;
+    /* background-color: lightsteelblue; */
+}
+.one{
+    background-color: lightpink;
+}
+.two{
+    background-color: lightgreen;
+}
+.three{
+    background-color: lightslategray;
+}
+/* 푸터 */
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
+.left-footer{
+    width: 150px;
+    height: 100%;
+    background-color: lavender;
+}
+.footer{
+    width: 1050px;
+    height: 100%;
+    background-color: rgb(201, 250, 188);
+}
